@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Testando Fontes</title>
+    <style>
+        @font-face {
+            font-family: 'Display';
+            src: url('./fonte/Open\ 24\ Display\ St.ttf') format('opentype'), url('./fonte/Open\ 24\ Display\ St.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+           /*
+           Tipos de format()
+           - opentype (otf)
+           - truetype (ttf)
+           - embedded-opentype
+           - truetype-apt (Apple Advamcd Tpography)
+           - svg
+           */
+       }
+      body{
+           font-family: Arial, sans-serif, Helvetica, sans-serif;
+      }
+
+      h1{
+         font-family:'Display', Times, serif;
+         font-size: 4em;
+         font-weight: normal;
+      }
+
+     p{
+      font-family: 'Display';
+      font-size: 1.5em;
+      
+    }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+     <p><br>Olá, mundo!</p>
+     <p>Estou apendendo!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, reiciendis voluptate? Inventore nesciunt nisi excepturi amet quod mollitia minima porro ab sint quaerat eos accusamus, tenetur dicta assumenda quasi odit!</p>
+</body>
+</html>
